@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Counter Strike 2",
+    "descripcion": "Shooter primera persona en línea.",
+    "precio": 12990,
+    "categoria": "Acción",
+    "imagen": "assets/img/counter-strike.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "City Skylines",
+    "descripcion": "Construye y gestiona tu propia ciudad.",
+    "precio": 32990,
+    "categoria": "Simulación",
+    "imagen": "assets/img/city-skylines.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Subnautica",
+    "descripcion": "Explora el océano y construye tu base en un mundo submarino.",
+    "precio": 30990,
+    "categoria": "Simulación",
+    "imagen": "assets/img/subnautica.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Rust",
+    "descripcion": "Sobrevive en un mundo hostil lleno de peligros.",
+    "precio": 9990,
+    "categoria": "Acción",
+    "imagen": "assets/img/rust.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Vampire Survivor",
+    "descripcion": "Juego de acción y supervivencia con disparos automáticos.",
+    "precio": 6000,
+    "categoria": "Acción",
+    "imagen": "assets/img/vampire-survivor.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "H1Z1",
+    "descripcion": "Battle royale en un mundo post-apocalíptico.",
+    "precio": 39990,
+    "categoria": "Acción",
+    "imagen": "assets/img/h1z1.jpg"
+  }
+]
