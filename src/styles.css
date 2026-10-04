@@ -1,0 +1,96 @@
+/* Estilos generales: se mantienen los colores y apariencia de la actividad anterior */
+body {
+  background-color: #f0f0f5;
+  color: #333333;
+  font-family: Arial, sans-serif;
+}
+
+.barra-principal,
+.footer {
+  background-color: #1f1f2e;
+}
+
+.inicio {
+  background-color: #353551;
+}
+
+.ofertas,
+.boton-principal {
+  background-color: #5b57d9;
+}
+
+.boton-principal {
+  color: white;
+}
+
+.boton-principal:hover {
+  background-color: #4541b8;
+  color: white;
+}
+
+/* Los botones del menú son elementos React, pero visualmente se ven como links Bootstrap. */
+.navbar .btn-link.nav-link {
+  border: 0;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.navbar .btn-link.nav-link:hover,
+.navbar .btn-link.nav-link.active {
+  color: white;
+}
+
+/* Tarjetas de los juegos */
+.tarjeta-juego {
+  height: 100%;
+  border: 1px solid #cccccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tarjeta-juego:hover {
+  transform: scale(1.02);
+}
+
+.imagen-juego {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+  background-color: #5b57d9;
+}
+
+.precio {
+  color: #5b57d9;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background-color: #5b57d9;
+  border-color: #5b57d9;
+}
+
+.btn-agregar:hover {
+  background-color: #4541b8;
+  border-color: #4541b8;
+}
+
+/* Carrito */
+.carrito {
+  position: sticky;
+  top: 20px;
+}
+
+/* Formulario de contacto */
+.form-contacto {
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .carrito {
+    position: static;
+  }
+}
